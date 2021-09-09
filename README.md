@@ -5,8 +5,8 @@ Sparkify is a startup wants to analyze the data they've been collecting a large 
 ## Proposed Solution:
 Creating a data lake in s3 and spark with tables designed to map the scattered data into star schema where the Sparkify's analysis team can apply the song play analysis, also create an ETL pipeline for this analysis and optimize queries on song play analysis. 
 ### How to run the Python scripts:
-![Sparkify_SCHEMA](./Sparkify_SCHEMA.png)
-With the use of the song and log datasets,  **star schema** has been creating as shown in the figure above. This includes the following tables.
+
+With the use of the song and log datasets,  **star schema** has been created. This includes the following tables.
 * Fact Table
 **songplays** - which contains records in log data associated with song plays and also the relation with the dimension tables it will be read from the parquet files in S3 and will be witten in parquet files too. 
 * Dimension Tables
